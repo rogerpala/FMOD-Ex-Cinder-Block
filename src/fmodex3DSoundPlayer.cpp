@@ -1,9 +1,9 @@
 /*
  *  fmodex3DSoundPlayer.cpp
- *  basicApp
+ *  
  *
  *  Created by Roger Palà on 21/03/2011.
- *  Copyright 2011 __MyCompanyName__. All rights reserved.
+ *  Copyright 2011 B-Reel. All rights reserved.
  *
  */
 
