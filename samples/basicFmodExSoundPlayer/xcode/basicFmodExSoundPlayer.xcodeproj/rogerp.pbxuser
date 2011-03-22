@@ -1,0 +1,179 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = C50FB5EF1338FFAA0067A6E5 /* basicFmodExSoundPlayer */;
+		activeTarget = 8D1107260486CEB800E47090 /* basicFmodExSoundPlayer */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* basicFmodExSoundPlayer */,
+		);
+		codeSenseManager = C50FB6151338FFC00067A6E5 /* Code sense */;
+		executables = (
+			C50FB5EF1338FFAA0067A6E5 /* basicFmodExSoundPlayer */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					560,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 322510016;
+			PBXWorkspaceStateSaveDate = 322510016;
+		};
+		perUserProjectItems = {
+			C50FB7F113391A880067A6E5 /* PBXTextBookmark */ = C50FB7F113391A880067A6E5 /* PBXTextBookmark */;
+			C50FB7F213391A880067A6E5 /* PBXTextBookmark */ = C50FB7F213391A880067A6E5 /* PBXTextBookmark */;
+			C50FB7F313391A880067A6E5 /* PBXTextBookmark */ = C50FB7F313391A880067A6E5 /* PBXTextBookmark */;
+			C50FB7F513391A880067A6E5 /* PBXTextBookmark */ = C50FB7F513391A880067A6E5 /* PBXTextBookmark */;
+			C50FB93D13391D810067A6E5 /* PBXTextBookmark */ = C50FB93D13391D810067A6E5 /* PBXTextBookmark */;
+		};
+		sourceControlManager = C50FB6141338FFC00067A6E5 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* basicFmodExSoundPlayer */ = {
+		activeExec = 0;
+		executables = (
+			C50FB5EF1338FFAA0067A6E5 /* basicFmodExSoundPlayer */,
+		);
+	};
+	C50FB5EF1338FFAA0067A6E5 /* basicFmodExSoundPlayer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = basicFmodExSoundPlayer;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	C50FB6141338FFC00067A6E5 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	C50FB6151338FFC00067A6E5 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C50FB63D1338FFDE0067A6E5 /* fmodex3DSoundPlayer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {738, 429}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 484}";
+		};
+	};
+	C50FB63E1338FFDE0067A6E5 /* fmodexPlayer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {738, 884}}";
+			sepNavSelRange = "{1044, 5}";
+			sepNavVisRange = "{0, 644}";
+		};
+	};
+	C50FB6781338FFDE0067A6E5 /* fmodexPlayer.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {738, 4862}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 783}";
+		};
+	};
+	C50FB7C6133913300067A6E5 /* basicFmodExSoundPlayerApp.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = basicFmodExSoundPlayerApp.cpp;
+		path = "/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/basicFmodExSoundPlayer/xcode/../src/basicFmodExSoundPlayerApp.cpp";
+		sourceTree = "<absolute>";
+	};
+	C50FB7F113391A880067A6E5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C50FB6781338FFDE0067A6E5 /* fmodexPlayer.cpp */;
+		name = "fmodexPlayer.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 783;
+		vrLoc = 0;
+	};
+	C50FB7F213391A880067A6E5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C50FB7C6133913300067A6E5 /* basicFmodExSoundPlayerApp.cpp */;
+		name = "basicFmodExSoundPlayerApp.cpp: 41";
+		rLen = 0;
+		rLoc = 713;
+		rType = 0;
+		vrLen = 574;
+		vrLoc = 0;
+	};
+	C50FB7F313391A880067A6E5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C50FB63D1338FFDE0067A6E5 /* fmodex3DSoundPlayer.h */;
+		name = "fmodex3DSoundPlayer.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 484;
+		vrLoc = 0;
+	};
+	C50FB7F513391A880067A6E5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C50FB63E1338FFDE0067A6E5 /* fmodexPlayer.h */;
+		name = "fmodexPlayer.h: 52";
+		rLen = 5;
+		rLoc = 1044;
+		rType = 0;
+		vrLen = 644;
+		vrLoc = 0;
+	};
+	C50FB93D13391D810067A6E5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C50FB63E1338FFDE0067A6E5 /* fmodexPlayer.h */;
+		name = "fmodexPlayer.h: 52";
+		rLen = 5;
+		rLoc = 1044;
+		rType = 0;
+		vrLen = 644;
+		vrLoc = 0;
+	};
+}
