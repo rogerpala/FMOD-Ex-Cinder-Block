@@ -44,7 +44,7 @@ void basicFmodExSoundPlayerApp::mouseMove( MouseEvent event )
 
 void basicFmodExSoundPlayerApp::update()
 {
-	fmodexUpdate();
+	player.fmodexUpdate();
 }
 
 void basicFmodExSoundPlayerApp::draw()

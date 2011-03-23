@@ -3,8 +3,8 @@
 	00BAE6590E7ED9C10018A608 /* FmodEx3DSoundPlayerApp.cpp */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {796, 1495}}";
-			sepNavSelRange = "{109, 0}";
-			sepNavVisRange = "{1416, 1557}";
+			sepNavSelRange = "{2391, 0}";
+			sepNavVisRange = "{975, 1997}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -24,9 +24,9 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					573,
+					584,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -41,20 +41,16 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 322509951;
-			PBXWorkspaceStateSaveDate = 322509951;
+			PBXPerProjectTemplateStateSaveDate = 322597580;
+			PBXWorkspaceStateSaveDate = 322597580;
 		};
 		perUserProjectItems = {
 			C50FB975133926A10067A6E5 /* PBXTextBookmark */ = C50FB975133926A10067A6E5 /* PBXTextBookmark */;
 			C50FB980133927CF0067A6E5 /* PBXTextBookmark */ = C50FB980133927CF0067A6E5 /* PBXTextBookmark */;
 			C50FB99D13392AD20067A6E5 /* PBXTextBookmark */ = C50FB99D13392AD20067A6E5 /* PBXTextBookmark */;
 			C50FB99F13392AD20067A6E5 /* PBXTextBookmark */ = C50FB99F13392AD20067A6E5 /* PBXTextBookmark */;
-			C50FB9A013392AD20067A6E5 /* PBXTextBookmark */ = C50FB9A013392AD20067A6E5 /* PBXTextBookmark */;
-			C50FB9A113392AD20067A6E5 /* PBXTextBookmark */ = C50FB9A113392AD20067A6E5 /* PBXTextBookmark */;
-			C50FB9A213392AD20067A6E5 /* PBXTextBookmark */ = C50FB9A213392AD20067A6E5 /* PBXTextBookmark */;
-			C50FB9A313392AD20067A6E5 /* PBXTextBookmark */ = C50FB9A313392AD20067A6E5 /* PBXTextBookmark */;
-			C50FB9A413392AD20067A6E5 /* PBXTextBookmark */ = C50FB9A413392AD20067A6E5 /* PBXTextBookmark */;
-			C50FB9A513392AD20067A6E5 /* PBXTextBookmark */ = C50FB9A513392AD20067A6E5 /* PBXTextBookmark */;
+			C531AB89133A858100B73684 /* PBXTextBookmark */ = C531AB89133A858100B73684 /* PBXTextBookmark */;
+			C531AB8A133A858100B73684 /* PBXTextBookmark */ = C531AB8A133A858100B73684 /* PBXTextBookmark */;
 		};
 		sourceControlManager = C50FB81E13391C850067A6E5 /* Source Control */;
 		userBuildSettings = {
@@ -140,21 +136,9 @@
 	};
 	C50FB8C413391C9B0067A6E5 /* fmodexPlayer.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {751, 4940}}";
-			sepNavSelRange = "{28, 0}";
-			sepNavVisRange = "{0, 1140}";
-		};
-	};
-	C50FB957133924D50067A6E5 /* FmodEx3DSoundPlayerApp.cpp */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.cpp.cpp;
-		name = FmodEx3DSoundPlayerApp.cpp;
-		path = "/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodEx3DSoundPlayer/xcode/../src/FmodEx3DSoundPlayerApp.cpp";
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {796, 1404}}";
-			sepNavSelRange = "{2630, 0}";
-			sepNavVisRange = "{1826, 506}";
+			sepNavIntBoundsRect = "{{0, 0}, {1125, 4914}}";
+			sepNavSelRange = "{9557, 0}";
+			sepNavVisRange = "{3175, 1484}";
 		};
 	};
 	C50FB975133926A10067A6E5 /* PBXTextBookmark */ = {
@@ -169,6 +153,7 @@
 	};
 	C50FB976133926A10067A6E5 /* gl.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = gl.h;
 		path = /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/include/cinder/gl/gl.h;
 		sourceTree = "<absolute>";
@@ -185,6 +170,7 @@
 	};
 	C50FB981133927CF0067A6E5 /* gl.cpp */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
 		name = gl.cpp;
 		path = /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/src/cinder/gl/gl.cpp;
 		sourceTree = "<absolute>";
@@ -201,6 +187,7 @@
 	};
 	C50FB99E13392AD20067A6E5 /* file.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = file.h;
 		path = "/Developer/Library/Xcode/File Templates/C and C++/C++ File.pbfiletemplate/file.h";
 		sourceTree = "<absolute>";
@@ -215,64 +202,24 @@
 		vrLen = 147;
 		vrLoc = 0;
 	};
-	C50FB9A013392AD20067A6E5 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = C50FB84713391C9A0067A6E5 /* fmodex3DSoundPlayer.h */;
-		name = "fmodex3DSoundPlayer.h: 6";
-		rLen = 0;
-		rLoc = 103;
-		rType = 0;
-		vrLen = 465;
-		vrLoc = 0;
-	};
-	C50FB9A113392AD20067A6E5 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = C50FB84813391C9A0067A6E5 /* fmodexPlayer.h */;
-		name = "fmodexPlayer.h: 6";
-		rLen = 0;
-		rLoc = 96;
-		rType = 0;
-		vrLen = 1032;
-		vrLoc = 0;
-	};
-	C50FB9A213392AD20067A6E5 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = C50FB8C413391C9B0067A6E5 /* fmodexPlayer.cpp */;
-		name = "fmodexPlayer.cpp: 3";
-		rLen = 0;
-		rLoc = 28;
-		rType = 0;
-		vrLen = 1140;
-		vrLoc = 0;
-	};
-	C50FB9A313392AD20067A6E5 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = C50FB8C313391C9B0067A6E5 /* fmodex3DSoundPlayer.cpp */;
-		name = "fmodex3DSoundPlayer.cpp: 1";
-		rLen = 134;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1329;
-		vrLoc = 0;
-	};
-	C50FB9A413392AD20067A6E5 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = C50FB957133924D50067A6E5 /* FmodEx3DSoundPlayerApp.cpp */;
-		name = "FmodEx3DSoundPlayerApp.cpp: 2";
-		rLen = 0;
-		rLoc = 5;
-		rType = 0;
-		vrLen = 1077;
-		vrLoc = 0;
-	};
-	C50FB9A513392AD20067A6E5 /* PBXTextBookmark */ = {
+	C531AB89133A858100B73684 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 00BAE6590E7ED9C10018A608 /* FmodEx3DSoundPlayerApp.cpp */;
-		name = "FmodEx3DSoundPlayerApp.cpp: 8";
-		rLen = 0;
-		rLoc = 109;
+		name = "FmodEx3DSoundPlayerApp.cpp: 70";
+		rLen = 7;
+		rLoc = 1662;
 		rType = 0;
-		vrLen = 1557;
-		vrLoc = 1416;
+		vrLen = 2046;
+		vrLoc = 830;
+	};
+	C531AB8A133A858100B73684 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00BAE6590E7ED9C10018A608 /* FmodEx3DSoundPlayerApp.cpp */;
+		name = "FmodEx3DSoundPlayerApp.cpp: 95";
+		rLen = 0;
+		rLoc = 2391;
+		rType = 0;
+		vrLen = 1997;
+		vrLoc = 975;
 	};
 }

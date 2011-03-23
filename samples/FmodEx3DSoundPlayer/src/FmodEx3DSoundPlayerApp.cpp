@@ -27,7 +27,7 @@ class FmodEx3DSoundPlayerApp : public AppBasic {
 	void draw();
 	
 	fmodex3DSoundPlayer player;
-	FMOD_SYSTEM* sys; 
+	FMOD_SYSTEM *sys;
 	FMOD_VECTOR listenerVelocity; 
 	FMOD_VECTOR listenerUp; 
 	FMOD_VECTOR listenerForward; 
