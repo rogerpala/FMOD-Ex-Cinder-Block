@@ -22,8 +22,8 @@ float fftSpectrum[8192];		// maximum # is 8192, in fmodex....
 
 
 // ---------------------  static vars
-static FMOD_CHANNELGROUP * channelgroup;
-static FMOD_SYSTEM       * sys;
+static FMOD::ChannelGroup * channelGroup;
+static FMOD::System       * sys;
 
 // these are global functions, that affect every sound / channel:
 // ------------------------------------------------------------
@@ -32,19 +32,19 @@ static FMOD_SYSTEM       * sys;
 //--------------------
 void fmodexStopAll(){
 	fmodexPlayer::initializeFmod();
-	FMOD_ChannelGroup_Stop(channelgroup);
+	channelGroup->stop();
 }
 
 //--------------------
 void fmodexSetVolume(float vol){
 	fmodexPlayer::initializeFmod();
-	FMOD_ChannelGroup_SetVolume(channelgroup, vol);
+	channelGroup->setVolume(vol);
 }
 
 //--------------------
 void fmodexUpdate(){
 	if (bFmodInitialized){
-		FMOD_System_Update(sys);
+		sys->update();
 	}
 }
 
@@ -80,7 +80,7 @@ float * fmodexGetSpectrum(int nBands){
 	if (nBandsToGet < 64) nBandsToGet = 64;  // can't seem to get fft of 32, etc from fmodex
 	
 	// 	get the fft
-	FMOD_System_GetSpectrum(sys, fftSpectrum, nBandsToGet, 0, FMOD_DSP_FFT_WINDOW_HANNING);
+	sys->getSpectrum(fftSpectrum, nBandsToGet, 0, FMOD_DSP_FFT_WINDOW_HANNING);
 	
 	// 	convert to db scale
 	for(int i = 0; i < nBandsToGet; i++){
@@ -167,12 +167,12 @@ fmodexPlayer::~fmodexPlayer(){
 // this should only be called once
 void fmodexPlayer::initializeFmod(){
 	if(!bFmodInitialized){
-		FMOD_System_Create(&sys);
+		FMOD::System_Create(&sys);
 #ifdef TARGET_LINUX
-		FMOD_System_SetOutput(sys,FMOD_OUTPUTTYPE_ALSA);
+		sys->setOutput(FMOD_OUTPUTTYPE_ALSA);
 #endif
-		FMOD_System_Init(sys, 32, FMOD_INIT_NORMAL, NULL);  //do we want just 32 channels?
-		FMOD_System_GetMasterChannelGroup(sys, &channelgroup);
+		sys->init(32, FMOD_INIT_NORMAL, NULL);  //do we want just 32 channels?
+		sys->getMasterChannelGroup(&channelGroup);
 		bFmodInitialized = true;
 	}
 }
@@ -181,7 +181,7 @@ void fmodexPlayer::initializeFmod(){
 //---------------------------------------
 void fmodexPlayer::closeFmod(){
 	if(bFmodInitialized){
-		FMOD_System_Close(sys);
+		sys->close();
 		bFmodInitialized = false;
 	}
 }
@@ -215,14 +215,14 @@ void fmodexPlayer::loadSound(std::string fileName, bool stream){
 	int fmodFlags =  FMOD_SOFTWARE;
 	if(stream)fmodFlags =  FMOD_SOFTWARE | FMOD_CREATESTREAM;
 	
-	result = FMOD_System_CreateSound(sys, fileName.c_str(),  fmodFlags, NULL, &sound);
+	result = sys->createSound(fileName.c_str(),  fmodFlags, NULL, &sound);
 	
 	if (result != FMOD_OK){
 		bLoadedOk = false;
 		console() << "fmodexPlayer: Could not load sound file " + fileName << std::endl;
 	} else {
 		bLoadedOk = true;
-		FMOD_Sound_GetLength(sound, &length, FMOD_TIMEUNIT_PCM);
+		sound->getLength(&length, FMOD_TIMEUNIT_PCM);
 		isStreaming = stream;
 	}
 	
@@ -232,7 +232,7 @@ void fmodexPlayer::loadSound(std::string fileName, bool stream){
 void fmodexPlayer::unloadSound(){
 	if (bLoadedOk){
 		stop();						// try to stop the sound
-		if(!isStreaming)FMOD_Sound_Release(sound);
+		if(!isStreaming) sound->release();
 	}
 }
 
@@ -241,9 +241,9 @@ bool fmodexPlayer::getIsPlaying(){
 	
 	if (!bLoadedOk) return false;
 	
-	int playing = 0;
-	FMOD_Channel_IsPlaying(channel, &playing);
-	return (playing != 0 ? true : false);
+	bool playing;
+	channel->isPlaying(&playing);
+	return playing;
 }
 
 //------------------------------------------------------------
@@ -259,7 +259,7 @@ float fmodexPlayer::getPan(){
 //------------------------------------------------------------
 void fmodexPlayer::setVolume(float vol){
 	if (getIsPlaying() == true){
-		FMOD_Channel_SetVolume(channel, vol);
+		channel->setVolume(vol);
 	}
 	volume = vol;
 }
@@ -268,7 +268,7 @@ void fmodexPlayer::setVolume(float vol){
 void fmodexPlayer::setPosition(float pct){
 	if (getIsPlaying() == true){
 		int sampleToBeAt = (int)(length * pct);
-		FMOD_Channel_SetPosition(channel, sampleToBeAt, FMOD_TIMEUNIT_PCM);
+		channel->setPosition(sampleToBeAt, FMOD_TIMEUNIT_PCM);
 	}
 }
 
@@ -277,7 +277,7 @@ float fmodexPlayer::getPosition(){
 	if (getIsPlaying() == true){
 		unsigned int sampleImAt;
 		
-		FMOD_Channel_GetPosition(channel, &sampleImAt, FMOD_TIMEUNIT_PCM);
+		channel->getPosition(&sampleImAt, FMOD_TIMEUNIT_PCM);
 		
 		float pct = 0.0f;
 		if (length > 0){
@@ -292,7 +292,7 @@ float fmodexPlayer::getPosition(){
 //------------------------------------------------------------
 void fmodexPlayer::setPan(float p){
 	if (getIsPlaying() == true){
-		FMOD_Channel_SetPan(channel,p);
+		channel->setPan(p);
 	}
 	pan = p;
 }
@@ -301,7 +301,7 @@ void fmodexPlayer::setPan(float p){
 //------------------------------------------------------------
 void fmodexPlayer::setPaused(bool bP){
 	if (getIsPlaying() == true){
-		FMOD_Channel_SetPaused(channel,bP);
+		channel->setPaused(bP);
 		bPaused = bP;
 	}
 }
@@ -310,7 +310,7 @@ void fmodexPlayer::setPaused(bool bP){
 //------------------------------------------------------------
 void fmodexPlayer::setSpeed(float spd){
 	if (getIsPlaying() == true){
-		FMOD_Channel_SetFrequency(channel, internalFreq * spd);
+		channel->setFrequency( internalFreq * spd);
 	}
 	speed = spd;
 }
@@ -319,7 +319,7 @@ void fmodexPlayer::setSpeed(float spd){
 //------------------------------------------------------------
 void fmodexPlayer::setLoop(bool bLp){
 	if (getIsPlaying() == true){
-		FMOD_Channel_SetMode(channel,  (bLp == true) ? FMOD_LOOP_NORMAL : FMOD_LOOP_OFF);
+		channel->setMode( (bLp == true) ? FMOD_LOOP_NORMAL : FMOD_LOOP_OFF);
 	}
 	bLoop = bLp;
 }
@@ -335,32 +335,32 @@ void fmodexPlayer::play(){
 	// if it's a looping sound, we should try to kill it, no?
 	// or else people will have orphan channels that are looping
 	if (bLoop == true){
-		FMOD_Channel_Stop(channel);
+		channel->stop();
 	}
 	
 	// if the sound is not set to multiplay, then stop the current,
 	// before we start another
 	if (!bMultiPlay){
-		FMOD_Channel_Stop(channel);
+		channel->stop();
 	}
 	
-	FMOD_System_PlaySound(sys, FMOD_CHANNEL_FREE, sound, bPaused, &channel);
+	sys->playSound(FMOD_CHANNEL_FREE, sound, bPaused, &channel);
 	
-	FMOD_Channel_GetFrequency(channel, &internalFreq);
-	FMOD_Channel_SetVolume(channel,volume);
-	FMOD_Channel_SetPan(channel,pan);
-	FMOD_Channel_SetFrequency(channel, internalFreq * speed);
-	FMOD_Channel_SetMode(channel,  (bLoop == true) ? FMOD_LOOP_NORMAL : FMOD_LOOP_OFF);
+	channel->getFrequency(&internalFreq);
+	channel->setVolume(volume);
+	channel->setPan(pan);
+	channel->setFrequency(internalFreq * speed);
+	channel->setMode((bLoop == true) ? FMOD_LOOP_NORMAL : FMOD_LOOP_OFF);
 	
 	//fmod update() should be called every frame - according to the docs.
 	//we have been using fmod without calling it at all which resulted in channels not being able
 	//to be reused.  we should have some sort of global update function but putting it here
 	//solves the channel bug
-	FMOD_System_Update(sys);
+	sys->update();
 	
 }
 
 // ----------------------------------------------------------------------------
 void fmodexPlayer::stop(){
-	FMOD_Channel_Stop(channel);
+	channel->stop();
 }

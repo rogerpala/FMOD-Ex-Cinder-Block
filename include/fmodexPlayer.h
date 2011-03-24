@@ -7,7 +7,7 @@
  *
  */
 
-#include "fmod.h"
+#include "fmod.hpp"
 #include "fmod_errors.h"
 #include "cinder/Utilities.h"
 #include "cinder/app/AppBasic.h"
@@ -60,8 +60,9 @@ public:
 	
 
 	FMOD_RESULT result;
-	FMOD_CHANNEL * channel;
-	FMOD_SOUND * sound;
+	FMOD::Channel * channel;
+	FMOD::Sound * sound;
+	
 
 };
 

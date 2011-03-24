@@ -48,7 +48,7 @@
 		53E3CDFB0E86099300238D2B /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* FmodExMultiple3DSoundPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FmodExMultiple3DSoundPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C50FB9E313392EA50067A6E5 /* fmodex3DSoundPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmodex3DSoundPlayer.h; path = ../../../include/fmodex3DSoundPlayer.h; sourceTree = SOURCE_ROOT; };
+		C50FB9E313392EA50067A6E5 /* fmodex3DSoundPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmodex3DSoundPlayer.h; sourceTree = "<group>"; };
 		C50FB9E413392EA50067A6E5 /* fmodexPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmodexPlayer.h; path = ../../../include/fmodexPlayer.h; sourceTree = SOURCE_ROOT; };
 		C50FB9E713392EA50067A6E5 /* fmod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmod.h; path = ../../../libs/include/fmod.h; sourceTree = SOURCE_ROOT; };
 		C50FB9E813392EA50067A6E5 /* fmod.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = fmod.hpp; path = ../../../libs/include/fmod.hpp; sourceTree = SOURCE_ROOT; };

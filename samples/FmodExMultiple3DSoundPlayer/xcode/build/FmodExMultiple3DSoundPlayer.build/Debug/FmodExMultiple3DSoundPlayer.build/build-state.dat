@@ -1,7 +1,7 @@
 TFmodExMultiple3DSoundPlayer
 v7
 r0
-t322602053.066238
+t322657567.579091
 cCheck dependencies
 cProcessInfoPlistFile /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Info.plist Info.plist
 cCpResource build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/CinderApp.icns ../resources/CinderApp.icns
@@ -291,17 +291,23 @@ c000000004D889E4D00000000000002B7
 t1300799053
 s695
 
-N/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../../../include/fmodex3DSoundPlayer.h
+N/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../../../include/Fmodex3DSoundPlayer.h
 c000000004D88F2CA00000000000001D2
 t1300820682
 s466
 i"fmodexPlayer.h"
 
+N/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../../../include/fmodex3DSoundPlayer.h
+c000000004D8B1CA700000000000001D4
+t1300962471
+s468
+i"fmodexPlayer.h"
+
 N/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../../../include/fmodexPlayer.h
-c000000004D88F2D10000000000000519
-t1300820689
-s1305
-i"fmod.h"
+c000000004D8B1DD6000000000000051F
+t1300962774
+s1311
+i"fmod.hpp"
 i"fmod_errors.h"
 i"cinder/Utilities.h"
 i"cinder/app/AppBasic.h"
@@ -363,15 +369,15 @@ t1300908844
 s692
 
 N/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../../../src/fmodex3DSoundPlayer.cpp
-c000000004D8A4C5700000000000006A7
-t1300909143
-s1703
+c000000004D8B25400000000000000634
+t1300964672
+s1588
 i"fmodex3DSoundPlayer.h"
 
 N/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../../../src/fmodexPlayer.cpp
-c000000004D88F2BF0000000000002556
-t1300820671
-s9558
+c000000004D8B24F000000000000023E0
+t1300964592
+s9184
 i"fmodexPlayer.h"
 
 N/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../../FmodEx3DSoundPlayer/resources/1085.mp3
@@ -851,9 +857,9 @@ t1265441710
 s157700
 
 N/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../src/FmodExMultiple3DSoundPlayerApp.cpp
-c000000004D8A4CBD0000000000001735
-t1300909245
-s5941
+c000000004D8B2598000000000000171A
+t1300964760
+s5914
 i"cinder/app/AppBasic.h"
 i"cinder/gl/gl.h"
 i"fmodex3DSoundPlayer.h"
@@ -908,27 +914,27 @@ t1300821507
 s868
 
 N/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app
-t1300909253
+t1300964767
 s102
 
 N/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Info.plist
-t1300821864
+t1300964443
 s889
 
 N/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/MacOS/FmodExMultiple3DSoundPlayer
-t1300909252
-s5251504
+t1300964767
+s5251016
 
 N/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/PkgInfo
-t1300821864
+t1300964443
 s8
 
 N/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/1085.mp3
-t1300878265
+t1300964443
 s142234
 
 N/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/CinderApp.icns
-t1300821864
+t1300964443
 s114357
 
 N/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/FmodEx3DSoundPlayer-all-target-headers.hmap
@@ -1016,7 +1022,7 @@ t2
 s0
 
 N/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/Violet.mp3
-t1300878265
+t1300964443
 s40252
 
 N/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/applypatch-msg.sample
@@ -1076,7 +1082,7 @@ t2
 s0
 
 N/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/beat.wav
-t1300878265
+t1300964443
 s720008
 
 N/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/build-state.dat
@@ -1220,7 +1226,7 @@ t2
 s0
 
 N/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/synth.wav
-t1300878265
+t1300964443
 s157700
 
 N/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/update.sample
@@ -1236,8 +1242,8 @@ t2
 s0
 
 N/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/Objects-normal/i386/FmodExMultiple3DSoundPlayer.LinkFileList
-c000000004D8A4C640000000000000304
-t1300909156
+c000000004D8B245B0000000000000304
+t1300964443
 s772
 
 N/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/Objects-normal/i386/FmodExMultiple3DSoundPlayerApp-791478523A01136E.o
@@ -1245,20 +1251,20 @@ t2
 s0
 
 N/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/Objects-normal/i386/FmodExMultiple3DSoundPlayerApp.o
-t1300909251
-s527576
+t1300964766
+s571156
 
 N/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/Objects-normal/i386/basicFmodExSoundPlayerApp.o
 t2
 s0
 
 N/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/Objects-normal/i386/fmodex3DSoundPlayer.o
-t1300909159
-s411500
+t1300964678
+s455544
 
 N/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/Objects-normal/i386/fmodexPlayer.o
-t1300905412
-s526944
+t1300964597
+s526880
 
 N/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer.pbxindex/categories.pbxbtree
 c000000004D88F6BB0000000000000054
@@ -7660,7 +7666,7 @@ t2
 s0
 
 N/var/folders/l9/l9hE2Qw4H5CdR-qBG3BtYoGvI-2/-Caches-/com.apple.Xcode.1153126417/SharedPrecompiledHeaders/FmodExMultiple3DSoundPlayer_Prefix-hbgqcmhqeropvqcprslderslknoi/FmodExMultiple3DSoundPlayer_Prefix.pch.gch
-t1300821865
+t1300964443
 s2515312
 
 NInfo.plist
@@ -7670,7 +7676,7 @@ s868
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies322602046#322602046#0(0"0(0#1#0"8620484608#0"0#
+lSLF07#2@18"Check dependencies322657561#322657561#0(0"0(0#1#0"8617840800#0"0#
 
 CCompileC build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/Objects-normal/i386/FmodEx3DSoundManager.o /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../../../src/FmodEx3DSoundManager.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s322601755.649786
@@ -7692,8 +7698,8 @@ CCompileC build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPla
 r0
 
 CCompileC build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/Objects-normal/i386/FmodExMultiple3DSoundPlayerApp.o /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../src/FmodExMultiple3DSoundPlayerApp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s322602046.558190
-e322602052.000094
+s322657561.743491
+e322657566.670887
 r1
 xCompileC
 xbuild/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/Objects-normal/i386/FmodExMultiple3DSoundPlayerApp.o
@@ -7702,14 +7708,14 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@183"Compile /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../src/FmodExMultiple3DSoundPlayerApp.cpp322602046#322602052#0(0"0(0#0#175"/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../src/FmodExMultiple3DSoundPlayerApp.cpp8630463936#3037"    cd /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-generated-files.hmap -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-own-target-headers.hmap -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-all-target-headers.hmap -iquote /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-project-headers.hmap -F/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug -iquote../../../../../include -iquote../include -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/include -I../../../../../boost -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/DerivedSources/i386 -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/DerivedSources -include /var/folders/l9/l9hE2Qw4H5CdR-qBG3BtYoGvI-2/-Caches-/com.apple.Xcode.1153126417/SharedPrecompiledHeaders/FmodExMultiple3DSoundPlayer_Prefix-hbgqcmhqeropvqcprslderslknoi/FmodExMultiple3DSoundPlayer_Prefix.pch -c /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../src/FmodExMultiple3DSoundPlayerApp.cpp -o /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/Objects-normal/i386/FmodExMultiple3DSoundPlayerApp.o0#
+lSLF07#2@183"Compile /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../src/FmodExMultiple3DSoundPlayerApp.cpp322657561#322657566#0(0"0(0#0#175"/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../src/FmodExMultiple3DSoundPlayerApp.cpp8618722720#3037"    cd /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-generated-files.hmap -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-own-target-headers.hmap -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-all-target-headers.hmap -iquote /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-project-headers.hmap -F/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug -iquote../../../../../include -iquote../include -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/include -I../../../../../boost -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/DerivedSources/i386 -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/DerivedSources -include /var/folders/l9/l9hE2Qw4H5CdR-qBG3BtYoGvI-2/-Caches-/com.apple.Xcode.1153126417/SharedPrecompiledHeaders/FmodExMultiple3DSoundPlayer_Prefix-hbgqcmhqeropvqcprslderslknoi/FmodExMultiple3DSoundPlayer_Prefix.pch -c /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../src/FmodExMultiple3DSoundPlayerApp.cpp -o /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/Objects-normal/i386/FmodExMultiple3DSoundPlayerApp.o0#
 
 CCompileC build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/Objects-normal/i386/basicFmodExSoundPlayerApp.o /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../../basicFmodExSoundPlayer/src/basicFmodExSoundPlayerApp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/Objects-normal/i386/fmodex3DSoundPlayer.o /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../../../src/fmodex3DSoundPlayer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s322601956.218754
-e322601959.167432
+s322657475.267118
+e322657478.209808
 r1
 xCompileC
 xbuild/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/Objects-normal/i386/fmodex3DSoundPlayer.o
@@ -7718,11 +7724,11 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@178"Compile /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../../../src/fmodex3DSoundPlayer.cpp322601956#322601959#0(0"0(0#0#170"/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../../../src/fmodex3DSoundPlayer.cpp8633675872#3021"    cd /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-generated-files.hmap -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-own-target-headers.hmap -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-all-target-headers.hmap -iquote /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-project-headers.hmap -F/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug -iquote../../../../../include -iquote../include -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/include -I../../../../../boost -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/DerivedSources/i386 -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/DerivedSources -include /var/folders/l9/l9hE2Qw4H5CdR-qBG3BtYoGvI-2/-Caches-/com.apple.Xcode.1153126417/SharedPrecompiledHeaders/FmodExMultiple3DSoundPlayer_Prefix-hbgqcmhqeropvqcprslderslknoi/FmodExMultiple3DSoundPlayer_Prefix.pch -c /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../../../src/fmodex3DSoundPlayer.cpp -o /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/Objects-normal/i386/fmodex3DSoundPlayer.o0#
+lSLF07#2@178"Compile /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../../../src/fmodex3DSoundPlayer.cpp322657475#322657478#0(0"0(0#0#170"/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../../../src/fmodex3DSoundPlayer.cpp8616853760#3021"    cd /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-generated-files.hmap -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-own-target-headers.hmap -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-all-target-headers.hmap -iquote /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-project-headers.hmap -F/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug -iquote../../../../../include -iquote../include -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/include -I../../../../../boost -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/DerivedSources/i386 -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/DerivedSources -include /var/folders/l9/l9hE2Qw4H5CdR-qBG3BtYoGvI-2/-Caches-/com.apple.Xcode.1153126417/SharedPrecompiledHeaders/FmodExMultiple3DSoundPlayer_Prefix-hbgqcmhqeropvqcprslderslknoi/FmodExMultiple3DSoundPlayer_Prefix.pch -c /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../../../src/fmodex3DSoundPlayer.cpp -o /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/Objects-normal/i386/fmodex3DSoundPlayer.o0#
 
 CCompileC build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/Objects-normal/i386/fmodexPlayer.o /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../../../src/fmodexPlayer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s322598209.811440
-e322598213.005407
+s322657392.786421
+e322657397.557732
 r1
 xCompileC
 xbuild/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/Objects-normal/i386/fmodexPlayer.o
@@ -7731,7 +7737,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@171"Compile /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../../../src/fmodexPlayer.cpp322598209#322598213#0(0"0(0#0#163"/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../../../src/fmodexPlayer.cpp8628969056#3007"    cd /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-generated-files.hmap -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-own-target-headers.hmap -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-all-target-headers.hmap -iquote /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-project-headers.hmap -F/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug -iquote../../../../../include -iquote../include -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/include -I../../../../../boost -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/DerivedSources/i386 -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/DerivedSources -include /var/folders/l9/l9hE2Qw4H5CdR-qBG3BtYoGvI-2/-Caches-/com.apple.Xcode.1153126417/SharedPrecompiledHeaders/FmodExMultiple3DSoundPlayer_Prefix-hbgqcmhqeropvqcprslderslknoi/FmodExMultiple3DSoundPlayer_Prefix.pch -c /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../../../src/fmodexPlayer.cpp -o /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/Objects-normal/i386/fmodexPlayer.o0#
+lSLF07#2@171"Compile /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../../../src/fmodexPlayer.cpp322657392#322657397#0(0"0(0#0#163"/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../../../src/fmodexPlayer.cpp8626937280#3007"    cd /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-generated-files.hmap -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-own-target-headers.hmap -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-all-target-headers.hmap -iquote /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-project-headers.hmap -F/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug -iquote../../../../../include -iquote../include -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/include -I../../../../../boost -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/DerivedSources/i386 -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/DerivedSources -include /var/folders/l9/l9hE2Qw4H5CdR-qBG3BtYoGvI-2/-Caches-/com.apple.Xcode.1153126417/SharedPrecompiledHeaders/FmodExMultiple3DSoundPlayer_Prefix-hbgqcmhqeropvqcprslderslknoi/FmodExMultiple3DSoundPlayer_Prefix.pch -c /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../../../src/fmodexPlayer.cpp -o /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/Objects-normal/i386/fmodexPlayer.o0#
 
 CCopyPlistFile /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/Info.plist ../../FmodEx3DSoundPlayer/xcode/Info.plist
 r0
@@ -7749,13 +7755,13 @@ CCpResource build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/1085.
 r0
 
 CCpResource build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/1085.mp3 ../resources/1085.mp3
-s322571065.164257
-e322571065.227794
+s322657243.457815
+e322657243.568954
 r1
 xCpResource
 xbuild/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/1085.mp3
 x../resources/1085.mp3
-lSLF07#2@26"Copy ../resources/1085.mp3322571065#322571065#0(0"0(0#0#155"/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../resources/1085.mp38635493952#656"    cd /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../resources/1085.mp3 /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources0#
+lSLF07#2@26"Copy ../resources/1085.mp3322657243#322657243#0(0"0(0#0#155"/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../resources/1085.mp38624761920#656"    cd /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../resources/1085.mp3 /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources0#
 
 CCpResource build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/CinderApp.icns ../../FmodEx3DSoundPlayer/resources/CinderApp.icns
 r0
@@ -7764,13 +7770,13 @@ CCpResource build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/Cinde
 r0
 
 CCpResource build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/CinderApp.icns ../resources/CinderApp.icns
-s322514664.510807
-e322514664.602469
+s322657243.457124
+e322657243.566408
 r1
 xCpResource
 xbuild/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/CinderApp.icns
 x../resources/CinderApp.icns
-lSLF07#2@32"Copy ../resources/CinderApp.icns322514664#322514664#0(0"0(0#0#161"/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../resources/CinderApp.icns8635144224#662"    cd /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../resources/CinderApp.icns /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources0#
+lSLF07#2@32"Copy ../resources/CinderApp.icns322657243#322657243#0(0"0(0#0#161"/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../resources/CinderApp.icns8624937024#662"    cd /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../resources/CinderApp.icns /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources0#
 
 CCpResource build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/FmodEx3DSoundPlayer-all-target-headers.hmap ../../FmodEx3DSoundPlayer/xcode/build/FmodEx3DSoundPlayer.build/Debug/FmodEx3DSoundPlayer.build/FmodEx3DSoundPlayer-all-target-headers.hmap
 r0
@@ -7866,13 +7872,13 @@ CCpResource build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/Viole
 r0
 
 CCpResource build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/Violet.mp3 ../resources/Violet.mp3
-s322571065.179147
-e322571065.222503
+s322657243.459296
+e322657243.564203
 r1
 xCpResource
 xbuild/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/Violet.mp3
 x../resources/Violet.mp3
-lSLF07#2@28"Copy ../resources/Violet.mp3322571065#322571065#0(0"0(0#0#157"/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../resources/Violet.mp38617950784#658"    cd /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../resources/Violet.mp3 /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources0#
+lSLF07#2@28"Copy ../resources/Violet.mp3322657243#322657243#0(0"0(0#0#157"/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../resources/Violet.mp38620272896#658"    cd /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../resources/Violet.mp3 /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources0#
 
 CCpResource build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/applypatch-msg.sample ../../../.git/hooks/applypatch-msg.sample
 r0
@@ -7926,13 +7932,13 @@ CCpResource build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/beat.
 r0
 
 CCpResource build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/beat.wav ../resources/beat.wav
-s322571065.174333
-e322571065.245162
+s322657243.458298
+e322657243.618418
 r1
 xCpResource
 xbuild/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/beat.wav
 x../resources/beat.wav
-lSLF07#2@26"Copy ../resources/beat.wav322571065#322571065#0(0"0(0#0#155"/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../resources/beat.wav8620820032#656"    cd /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../resources/beat.wav /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources0#
+lSLF07#2@26"Copy ../resources/beat.wav322657243#322657243#0(0"0(0#0#155"/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../resources/beat.wav8624622528#656"    cd /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../resources/beat.wav /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources0#
 
 CCpResource build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/build-state.dat ../../FmodEx3DSoundPlayer/xcode/build/FmodEx3DSoundPlayer.build/Debug/FmodEx3DSoundPlayer.build/build-state.dat
 r0
@@ -8133,42 +8139,42 @@ CCpResource build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/synth
 r0
 
 CCpResource build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/synth.wav ../resources/synth.wav
-s322571065.176313
-e322571065.227607
+s322657243.458780
+e322657243.569193
 r1
 xCpResource
 xbuild/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/synth.wav
 x../resources/synth.wav
-lSLF07#2@27"Copy ../resources/synth.wav322571065#322571065#0(0"0(0#0#156"/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../resources/synth.wav8620210080#657"    cd /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../resources/synth.wav /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources0#
+lSLF07#2@27"Copy ../resources/synth.wav322657243#322657243#0(0"0(0#0#156"/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../resources/synth.wav8623957888#657"    cd /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../resources/synth.wav /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources0#
 
 CCpResource build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Resources/update.sample ../../../.git/hooks/update.sample
 r0
 
 CLd /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/MacOS/FmodExMultiple3DSoundPlayer normal i386
-s322602052.000298
-e322602053.063495
+s322657566.671016
+e322657567.576560
 r1
 xLd
 x/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/MacOS/FmodExMultiple3DSoundPlayer
 xnormal
 xi386
-lSLF07#2@225"Link /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/MacOS/FmodExMultiple3DSoundPlayer322602052#322602053#0(0"0(0#0#0"8630008032#1709"    cd /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug -L/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../../../libs/lib/osx -F/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug -filelist /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/Objects-normal/i386/FmodExMultiple3DSoundPlayer.LinkFileList -mmacosx-version-min=10.5 ../../../../../lib/libcinder_d.a -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -lfmodex /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../../../libs/lib/osx/libfmodex.dylib~1ff4e510c44ce83eb6abef94a7b24181cb9280ba -o /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/MacOS/FmodExMultiple3DSoundPlayer0#
+lSLF07#2@225"Link /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/MacOS/FmodExMultiple3DSoundPlayer322657566#322657567#0(0"0(0#0#0"8626922688#1709"    cd /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug -L/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../../../libs/lib/osx -F/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug -filelist /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/Objects-normal/i386/FmodExMultiple3DSoundPlayer.LinkFileList -mmacosx-version-min=10.5 ../../../../../lib/libcinder_d.a -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -lfmodex /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/../../../libs/lib/osx/libfmodex.dylib~1ff4e510c44ce83eb6abef94a7b24181cb9280ba -o /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/MacOS/FmodExMultiple3DSoundPlayer0#
 
 CProcessInfoPlistFile /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Info.plist Info.plist
-s322514664.506582
-e322514664.510738
+s322657243.443079
+e322657243.457037
 r1
 xProcessInfoPlistFile
 x/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Info.plist
 xInfo.plist
-lSLF07#2@18"Process Info.plist322514664#322514664#0(0"0(0#0#144"/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/Info.plist8604515104#627"    cd /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode    builtin-infoPlistUtility Info.plist -genpkginfo /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Info.plist0#
+lSLF07#2@18"Process Info.plist322657243#322657243#0(0"0(0#0#144"/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/Info.plist8613351104#627"    cd /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode    builtin-infoPlistUtility Info.plist -genpkginfo /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app/Contents/Info.plist0#
 
 CProcessPCH++ /var/folders/l9/l9hE2Qw4H5CdR-qBG3BtYoGvI-2/-Caches-/com.apple.Xcode.1153126417/SharedPrecompiledHeaders/FmodExMultiple3DSoundPlayer_Prefix-alnhqcykmlxvmiairscazzkffbfr/FmodExMultiple3DSoundPlayer_Prefix.pch.gch FmodExMultiple3DSoundPlayer_Prefix.pch normal i386 c++ com.apple.compilers.gcc.4_2
 r0
 
 CProcessPCH++ /var/folders/l9/l9hE2Qw4H5CdR-qBG3BtYoGvI-2/-Caches-/com.apple.Xcode.1153126417/SharedPrecompiledHeaders/FmodExMultiple3DSoundPlayer_Prefix-hbgqcmhqeropvqcprslderslknoi/FmodExMultiple3DSoundPlayer_Prefix.pch.gch FmodExMultiple3DSoundPlayer_Prefix.pch normal i386 c++ com.apple.compilers.gcc.4_2
-s322514664.602630
-e322514665.114352
+s322657243.618557
+e322657243.793601
 r1
 xProcessPCH++
 x/var/folders/l9/l9hE2Qw4H5CdR-qBG3BtYoGvI-2/-Caches-/com.apple.Xcode.1153126417/SharedPrecompiledHeaders/FmodExMultiple3DSoundPlayer_Prefix-hbgqcmhqeropvqcprslderslknoi/FmodExMultiple3DSoundPlayer_Prefix.pch.gch
@@ -8177,13 +8183,13 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@49"Precompile FmodExMultiple3DSoundPlayer_Prefix.pch322514664#322514665#0(0"0(0#0#172"/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/FmodExMultiple3DSoundPlayer_Prefix.pch8624065376#2769"    cd /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-generated-files.hmap -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-own-target-headers.hmap -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-all-target-headers.hmap -iquote /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-project-headers.hmap -F/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug -iquote../../../../../include -iquote../include -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/include -I../../../../../boost -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/DerivedSources/i386 -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/DerivedSources -c /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/FmodExMultiple3DSoundPlayer_Prefix.pch -o /var/folders/l9/l9hE2Qw4H5CdR-qBG3BtYoGvI-2/-Caches-/com.apple.Xcode.1153126417/SharedPrecompiledHeaders/FmodExMultiple3DSoundPlayer_Prefix-hbgqcmhqeropvqcprslderslknoi/FmodExMultiple3DSoundPlayer_Prefix.pch.gch0#
+lSLF07#2@49"Precompile FmodExMultiple3DSoundPlayer_Prefix.pch322657243#322657243#0(0"0(0#0#172"/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/FmodExMultiple3DSoundPlayer_Prefix.pch8616721824#2769"    cd /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-generated-files.hmap -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-own-target-headers.hmap -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-all-target-headers.hmap -iquote /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/FmodExMultiple3DSoundPlayer-project-headers.hmap -F/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug -iquote../../../../../include -iquote../include -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/include -I../../../../../boost -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/DerivedSources/i386 -I/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/FmodExMultiple3DSoundPlayer.build/Debug/FmodExMultiple3DSoundPlayer.build/DerivedSources -c /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/FmodExMultiple3DSoundPlayer_Prefix.pch -o /var/folders/l9/l9hE2Qw4H5CdR-qBG3BtYoGvI-2/-Caches-/com.apple.Xcode.1153126417/SharedPrecompiledHeaders/FmodExMultiple3DSoundPlayer_Prefix-hbgqcmhqeropvqcprslderslknoi/FmodExMultiple3DSoundPlayer_Prefix.pch.gch0#
 
 CTouch /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app
-s322602053.063621
-e322602053.066207
+s322657567.576654
+e322657567.579062
 r1
 xTouch
 x/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app
-lSLF07#2@183"Touch /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app322602053#322602053#0(0"0(0#0#0"8633865824#341"    cd /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode    /usr/bin/touch -c /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app0#
+lSLF07#2@183"Touch /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app322657567#322657567#0(0"0(0#0#0"8624186144#341"    cd /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode    /usr/bin/touch -c /Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultiple3DSoundPlayer/xcode/build/Debug/FmodExMultiple3DSoundPlayer.app0#
 

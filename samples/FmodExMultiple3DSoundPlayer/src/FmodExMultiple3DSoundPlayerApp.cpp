@@ -30,7 +30,7 @@ class FmodExMultiple3DSoundPlayerApp : public AppBasic {
 	//Multiple 3D Sound
 	fmodex3DSoundPlayer player1;
 	fmodex3DSoundPlayer player2;
-	FMOD_SYSTEM* sys;
+	FMOD::System* sys;
 	FMOD_VECTOR listenerVelocity; 
 	FMOD_VECTOR listenerUp; 
 	FMOD_VECTOR listenerForward; 
@@ -166,7 +166,7 @@ void FmodExMultiple3DSoundPlayerApp::update()
 	listenerForward.x = camCenter.x; 
 	listenerForward.y = camCenter.y; 
 	listenerForward.z = camCenter.z;
-	FMOD_System_Set3DListenerAttributes(sys, 0, &listenerPos, &listenerVelocity, &listenerForward, &listenerUp);
+	sys->set3DListenerAttributes( 0, &listenerPos, &listenerVelocity, &listenerForward, &listenerUp);
 	
 	if(!player1.getIsPlaying())
 		player1.play();
@@ -174,12 +174,12 @@ void FmodExMultiple3DSoundPlayerApp::update()
 	if(!player2.getIsPlaying())
 		player2.play();	
 	
-	FMOD_Channel_Set3DAttributes(player1.channel, &sound3DPosition1, &sound3DVelocity1);
-	FMOD_Channel_Set3DAttributes(player2.channel, &sound3DPosition2, &sound3DVelocity2);
+	player1.channel->set3DAttributes( &sound3DPosition1, &sound3DVelocity1);
+	player2.channel->set3DAttributes( &sound3DPosition2, &sound3DVelocity2);
 	
 	//we update the fmod sound system
-	FMOD_System_Update(sys);
-	
+	sys->update();
+	//fmodexUpdate();
 	
 }
 

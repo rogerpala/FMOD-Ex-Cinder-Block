@@ -16,6 +16,6 @@ public:
 	static void closeFmod(); 
 	void loadSound(std::string fileName, bool stream = false); 
 	void play(); 
-	static FMOD_CHANNELGROUP * getChannelGroup(); 
-	static FMOD_SYSTEM * getSystem();
+	static FMOD::ChannelGroup * getChannelGroup(); 
+	static FMOD::System * getSystem();
 }; 

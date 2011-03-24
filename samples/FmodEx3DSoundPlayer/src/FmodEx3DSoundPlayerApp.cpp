@@ -27,7 +27,7 @@ class FmodEx3DSoundPlayerApp : public AppBasic {
 	void draw();
 	
 	fmodex3DSoundPlayer player;
-	FMOD_SYSTEM *sys;
+	FMOD::System *sys;
 	FMOD_VECTOR listenerVelocity; 
 	FMOD_VECTOR listenerUp; 
 	FMOD_VECTOR listenerForward; 
@@ -89,10 +89,10 @@ void FmodEx3DSoundPlayerApp::update()
 	
 	
 	//we pass the listener propierties and the sound propierties to the fmod system and channel
-	FMOD_System_Set3DListenerAttributes(sys, 0, &listenerPos, &listenerVelocity, &listenerForward, &listenerUp);
-	FMOD_Channel_Set3DAttributes(player.channel, &soundPosition, &soundVelocity);
+	sys->set3DListenerAttributes( 0, &listenerPos, &listenerVelocity, &listenerForward, &listenerUp);
+	player.channel->set3DAttributes( &soundPosition, &soundVelocity);
 	//we update the fmod sound system
-	FMOD_System_Update(sys);
+	sys->update();
 }
 
 void FmodEx3DSoundPlayerApp::draw()
