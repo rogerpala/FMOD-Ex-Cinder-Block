@@ -1,21 +1,20 @@
 FMOD Ex Cinder Block
 --------------------
 
-C++ [Cinder](http://libcinder.org) Block to use the [FMOD Ex](http://www.fmod.org/) interactive audio library.
-by [Roger Palà](http://rogerpala.com)
+C++ [Cinder](http://libcinder.org) Block to use the [FMOD Ex](http://www.fmod.org/) interactive audio library by [Roger Palà](http://rogerpala.com).
 
 This Cinder Block is meant to be an easy way to take advantage of the powerful FMOD Ex interactive sound library. 
 Mainly created to be able to play with 3D Sound environments.
 
 The block basically consist of two classes:
 
-* **FmodexPlayer** is a simple sound player using the Fmod Ex library based on openframeworks [ofSoundPlayer](https://github.com/openframeworks/openFrameworks/blob/master/libs/openFrameworks/sound/ofSoundPlayer.cpp)
-* **Fmodex3DSoundPlayer** is a 3D Sound player using the Fmod Ex library created based on the info in the [Programming Interactivity book](http://programminginteractivity.com/) about 3D Sound by [Joshua Noble](http://thefactoryfactory.com/)
+* **FmodexPlayer** is a simple sound player using the Fmod Ex library based on openframeworks [ofSoundPlayer](https://github.com/openframeworks/openFrameworks/blob/master/libs/openFrameworks/sound/ofSoundPlayer.cpp).
+* **Fmodex3DSoundPlayer** is a 3D Sound player using the Fmod Ex library created based on the info in the [Programming Interactivity book](http://programminginteractivity.com/) about 3D Sound by [Joshua Noble](http://thefactoryfactory.com/).
 
 ###Requirements
 
-* Cinder 0.8.2
-* Mac OSX with xcode
+* Cinder 0.8.2.
+* Mac OSX with xcode.
 
 ###Quick setup
 
