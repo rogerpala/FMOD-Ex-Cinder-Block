@@ -37,4 +37,5 @@ That's it!
 
 * **basicFmodExSoundPlayer** is the most basic one, with a simple example on how to use the FmodexPlayer to affect the speed and pan of a sound.
 * **FmodEx3DSoundPlayer** is a simple example on how to use the Fmodex3DSoundPlayer to create a 3D Sound effect. In fact, to simplify, this example it's a fake 3D sound as we just use a 2D representation of it, but it's a good start.
-* **FmodExMultiple3DSoundPlayer** is an example to show how to use the Fmodex3DSoundPlayer to play multiple 3D Sounds in a 3D space. 
+* **FmodExMultiple3DSoundPlayer** is an example to show how to use the Fmodex3DSoundPlayer to play multiple 3D Sounds in a 3D space.
+* **FmodExMultipleDynamic3DSoundPlayer** is the same as FmodExMultiple3DSoundPlayer sample but creating the sounds from a dynamic array of sound paths.
