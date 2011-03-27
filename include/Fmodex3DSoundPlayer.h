@@ -1,5 +1,5 @@
 /*
- *  fmodex3DSoundPlayer.h
+ *  Fmodex3DSoundPlayer.h
  *  
  *
  *  Created by Roger Palà on 21/03/2011.
@@ -7,11 +7,11 @@
  *
  */
 
-#include "fmodexPlayer.h"
+#include "FmodexPlayer.h"
 
-class fmodex3DSoundPlayer : public fmodexPlayer { 
+class Fmodex3DSoundPlayer : public FmodexPlayer { 
 public:
-	fmodex3DSoundPlayer();
+	Fmodex3DSoundPlayer();
 	static void initializeFmod(); 
 	static void closeFmod(); 
 	void loadSound(std::string fileName, bool stream = false); 

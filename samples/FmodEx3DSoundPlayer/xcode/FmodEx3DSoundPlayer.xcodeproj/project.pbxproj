@@ -21,8 +21,8 @@
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		C50FB8DB13391C9B0067A6E5 /* libfmodex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C50FB85513391C9A0067A6E5 /* libfmodex.dylib */; };
 		C50FB8DC13391C9B0067A6E5 /* libfmodex.dylib~1ff4e510c44ce83eb6abef94a7b24181cb9280ba in Frameworks */ = {isa = PBXBuildFile; fileRef = C50FB85613391C9A0067A6E5 /* libfmodex.dylib~1ff4e510c44ce83eb6abef94a7b24181cb9280ba */; };
-		C50FB92213391C9B0067A6E5 /* fmodex3DSoundPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C50FB8C313391C9B0067A6E5 /* fmodex3DSoundPlayer.cpp */; };
-		C50FB92313391C9B0067A6E5 /* fmodexPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C50FB8C413391C9B0067A6E5 /* fmodexPlayer.cpp */; };
+		C50FB92213391C9B0067A6E5 /* Fmodex3DSoundPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C50FB8C313391C9B0067A6E5 /* Fmodex3DSoundPlayer.cpp */; };
+		C50FB92313391C9B0067A6E5 /* FmodexPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C50FB8C413391C9B0067A6E5 /* FmodexPlayer.cpp */; };
 		C50FB9451339201A0067A6E5 /* 1085.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C50FB9411339201A0067A6E5 /* 1085.mp3 */; };
 		C50FB9461339201A0067A6E5 /* beat.wav in Resources */ = {isa = PBXBuildFile; fileRef = C50FB9421339201A0067A6E5 /* beat.wav */; };
 		C50FB9471339201A0067A6E5 /* synth.wav in Resources */ = {isa = PBXBuildFile; fileRef = C50FB9431339201A0067A6E5 /* synth.wav */; };
@@ -48,8 +48,8 @@
 		53E3CDFB0E86099300238D2B /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* FmodEx3DSoundPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FmodEx3DSoundPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C50FB84713391C9A0067A6E5 /* fmodex3DSoundPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmodex3DSoundPlayer.h; path = ../../../include/fmodex3DSoundPlayer.h; sourceTree = SOURCE_ROOT; };
-		C50FB84813391C9A0067A6E5 /* fmodexPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmodexPlayer.h; path = ../../../include/fmodexPlayer.h; sourceTree = SOURCE_ROOT; };
+		C50FB84713391C9A0067A6E5 /* Fmodex3DSoundPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fmodex3DSoundPlayer.h; sourceTree = "<group>"; };
+		C50FB84813391C9A0067A6E5 /* FmodexPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmodexPlayer.h; sourceTree = "<group>"; };
 		C50FB84B13391C9A0067A6E5 /* fmod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmod.h; path = ../../../libs/include/fmod.h; sourceTree = SOURCE_ROOT; };
 		C50FB84C13391C9A0067A6E5 /* fmod.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = fmod.hpp; path = ../../../libs/include/fmod.hpp; sourceTree = SOURCE_ROOT; };
 		C50FB84D13391C9A0067A6E5 /* fmod_codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmod_codec.h; path = ../../../libs/include/fmod_codec.h; sourceTree = SOURCE_ROOT; };
@@ -60,8 +60,8 @@
 		C50FB85213391C9A0067A6E5 /* fmodlinux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmodlinux.h; path = ../../../libs/include/fmodlinux.h; sourceTree = SOURCE_ROOT; };
 		C50FB85513391C9A0067A6E5 /* libfmodex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfmodex.dylib; path = ../../../libs/lib/osx/libfmodex.dylib; sourceTree = SOURCE_ROOT; };
 		C50FB85613391C9A0067A6E5 /* libfmodex.dylib~1ff4e510c44ce83eb6abef94a7b24181cb9280ba */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libfmodex.dylib~1ff4e510c44ce83eb6abef94a7b24181cb9280ba"; path = "../../../libs/lib/osx/libfmodex.dylib~1ff4e510c44ce83eb6abef94a7b24181cb9280ba"; sourceTree = SOURCE_ROOT; };
-		C50FB8C313391C9B0067A6E5 /* fmodex3DSoundPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fmodex3DSoundPlayer.cpp; path = ../../../src/fmodex3DSoundPlayer.cpp; sourceTree = SOURCE_ROOT; };
-		C50FB8C413391C9B0067A6E5 /* fmodexPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fmodexPlayer.cpp; path = ../../../src/fmodexPlayer.cpp; sourceTree = SOURCE_ROOT; };
+		C50FB8C313391C9B0067A6E5 /* Fmodex3DSoundPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Fmodex3DSoundPlayer.cpp; sourceTree = "<group>"; };
+		C50FB8C413391C9B0067A6E5 /* FmodexPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FmodexPlayer.cpp; sourceTree = "<group>"; };
 		C50FB9411339201A0067A6E5 /* 1085.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 1085.mp3; path = ../resources/1085.mp3; sourceTree = SOURCE_ROOT; };
 		C50FB9421339201A0067A6E5 /* beat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = beat.wav; path = ../resources/beat.wav; sourceTree = SOURCE_ROOT; };
 		C50FB9431339201A0067A6E5 /* synth.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = synth.wav; path = ../resources/synth.wav; sourceTree = SOURCE_ROOT; };
@@ -191,8 +191,8 @@
 		C50FB84613391C9A0067A6E5 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				C50FB84713391C9A0067A6E5 /* fmodex3DSoundPlayer.h */,
-				C50FB84813391C9A0067A6E5 /* fmodexPlayer.h */,
+				C50FB84713391C9A0067A6E5 /* Fmodex3DSoundPlayer.h */,
+				C50FB84813391C9A0067A6E5 /* FmodexPlayer.h */,
 			);
 			name = include;
 			path = ../../../include;
@@ -246,8 +246,8 @@
 		C50FB8C213391C9B0067A6E5 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				C50FB8C313391C9B0067A6E5 /* fmodex3DSoundPlayer.cpp */,
-				C50FB8C413391C9B0067A6E5 /* fmodexPlayer.cpp */,
+				C50FB8C313391C9B0067A6E5 /* Fmodex3DSoundPlayer.cpp */,
+				C50FB8C413391C9B0067A6E5 /* FmodexPlayer.cpp */,
 			);
 			name = src;
 			path = ../../../src;
@@ -322,8 +322,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				00BAE65A0E7ED9C10018A608 /* FmodEx3DSoundPlayerApp.cpp in Sources */,
-				C50FB92213391C9B0067A6E5 /* fmodex3DSoundPlayer.cpp in Sources */,
-				C50FB92313391C9B0067A6E5 /* fmodexPlayer.cpp in Sources */,
+				C50FB92213391C9B0067A6E5 /* Fmodex3DSoundPlayer.cpp in Sources */,
+				C50FB92313391C9B0067A6E5 /* FmodexPlayer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

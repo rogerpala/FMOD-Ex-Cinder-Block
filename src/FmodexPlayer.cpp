@@ -1,5 +1,5 @@
 /*
- *  fmodexPlayer.cpp
+ *  FmodexPlayer.cpp
  *  
  *
  *  Created by Roger Palà on 21/03/2011.
@@ -7,7 +7,7 @@
  *
  */
 
-#include "fmodexPlayer.h"
+#include "FmodexPlayer.h"
 
 using namespace std;
 using namespace cinder;
@@ -18,7 +18,7 @@ bool bFmodInitialized = false;
 bool bUseSpectrum = false;
 float fftValues[8192];			//
 float fftInterpValues[8192];			//
-float fftSpectrum[8192];		// maximum # is 8192, in fmodex....
+float fftSpectrum[8192];		// maximum # is 8192, in Fmodex....
 
 
 // ---------------------  static vars
@@ -30,19 +30,19 @@ static FMOD::System       * sys;
 // ------------------------------------------------------------
 
 //--------------------
-void fmodexStopAll(){
-	fmodexPlayer::initializeFmod();
+void FmodexStopAll(){
+	FmodexPlayer::initializeFmod();
 	channelGroup->stop();
 }
 
 //--------------------
-void fmodexSetVolume(float vol){
-	fmodexPlayer::initializeFmod();
+void FmodexSetVolume(float vol){
+	FmodexPlayer::initializeFmod();
 	channelGroup->setVolume(vol);
 }
 
 //--------------------
-void fmodexUpdate(){
+void FmodexUpdate(){
 	if (bFmodInitialized){
 		sys->update();
 	}
@@ -56,9 +56,9 @@ int ofNextPow2(int a){
 }
 
 //--------------------
-float * fmodexGetSpectrum(int nBands){
+float * FmodexGetSpectrum(int nBands){
 	
-	fmodexPlayer::initializeFmod();
+	FmodexPlayer::initializeFmod();
 	
 	
 	// 	set to 0
@@ -68,16 +68,16 @@ float * fmodexGetSpectrum(int nBands){
 	
 	// 	check what the user wants vs. what we can do:
 	if (nBands > 8192){
-		console() << "error in fmodexGetSpectrum, the maximum number of bands is 8192 - you asked for" + toString(nBands) + "we will return 8192" << std::endl;
+		console() << "error in FmodexGetSpectrum, the maximum number of bands is 8192 - you asked for" + toString(nBands) + "we will return 8192" << std::endl;
 		nBands = 8192;
 	} else if (nBands <= 0){
-		console() << "error in fmodexSpectrum, you've asked for" + toString(nBands) + "bands, minimum is 1" << std::endl;
+		console() << "error in FmodexSpectrum, you've asked for" + toString(nBands) + "bands, minimum is 1" << std::endl;
 		return fftInterpValues;
 	}
 	
 	// 	FMOD needs pow2
 	int nBandsToGet = ofNextPow2(nBands);
-	if (nBandsToGet < 64) nBandsToGet = 64;  // can't seem to get fft of 32, etc from fmodex
+	if (nBandsToGet < 64) nBandsToGet = 64;  // can't seem to get fft of 32, etc from Fmodex
 	
 	// 	get the fft
 	sys->getSpectrum(fftSpectrum, nBandsToGet, 0, FMOD_DSP_FFT_WINDOW_HANNING);
@@ -118,7 +118,7 @@ float * fmodexGetSpectrum(int nBands){
 				currentBand++;
 				// safety check:
 				if (currentBand >= nBands){
-					console() << "fmodexGetSpectrum - currentBand >= nBands" << std::endl;
+					console() << "FmodexGetSpectrum - currentBand >= nBands" << std::endl;
 				}
 				
 				fftInterpValues[currentBand] += one_m_fraction * fftValues[i];
@@ -146,7 +146,7 @@ float * fmodexGetSpectrum(int nBands){
 
 // now, the individual sound player:
 //------------------------------------------------------------
-fmodexPlayer::fmodexPlayer(){
+FmodexPlayer::FmodexPlayer(){
 	bLoop 			= false;
 	bLoadedOk 		= false;
 	pan 			= 0.5f;
@@ -157,7 +157,7 @@ fmodexPlayer::fmodexPlayer(){
 	isStreaming		= false;
 }
 
-fmodexPlayer::~fmodexPlayer(){
+FmodexPlayer::~FmodexPlayer(){
 	unloadSound();
 }
 
@@ -165,7 +165,7 @@ fmodexPlayer::~fmodexPlayer(){
 
 //---------------------------------------
 // this should only be called once
-void fmodexPlayer::initializeFmod(){
+void FmodexPlayer::initializeFmod(){
 	if(!bFmodInitialized){
 		FMOD::System_Create(&sys);
 #ifdef TARGET_LINUX
@@ -179,7 +179,7 @@ void fmodexPlayer::initializeFmod(){
 
 
 //---------------------------------------
-void fmodexPlayer::closeFmod(){
+void FmodexPlayer::closeFmod(){
 	if(bFmodInitialized){
 		sys->close();
 		bFmodInitialized = false;
@@ -187,7 +187,7 @@ void fmodexPlayer::closeFmod(){
 }
 
 //------------------------------------------------------------
-void fmodexPlayer::loadSound(std::string fileName, bool stream){
+void FmodexPlayer::loadSound(std::string fileName, bool stream){
 	
 	
 	// fmod uses IO posix internally, might have trouble
@@ -219,7 +219,7 @@ void fmodexPlayer::loadSound(std::string fileName, bool stream){
 	
 	if (result != FMOD_OK){
 		bLoadedOk = false;
-		console() << "fmodexPlayer: Could not load sound file " + fileName << std::endl;
+		console() << "FmodexPlayer: Could not load sound file " + fileName << std::endl;
 	} else {
 		bLoadedOk = true;
 		sound->getLength(&length, FMOD_TIMEUNIT_PCM);
@@ -229,7 +229,7 @@ void fmodexPlayer::loadSound(std::string fileName, bool stream){
 }
 
 //------------------------------------------------------------
-void fmodexPlayer::unloadSound(){
+void FmodexPlayer::unloadSound(){
 	if (bLoadedOk){
 		stop();						// try to stop the sound
 		if(!isStreaming) sound->release();
@@ -237,7 +237,7 @@ void fmodexPlayer::unloadSound(){
 }
 
 //------------------------------------------------------------
-bool fmodexPlayer::getIsPlaying(){
+bool FmodexPlayer::getIsPlaying(){
 	
 	if (!bLoadedOk) return false;
 	
@@ -247,17 +247,17 @@ bool fmodexPlayer::getIsPlaying(){
 }
 
 //------------------------------------------------------------
-float fmodexPlayer::getSpeed(){
+float FmodexPlayer::getSpeed(){
 	return speed;
 }
 
 //------------------------------------------------------------
-float fmodexPlayer::getPan(){
+float FmodexPlayer::getPan(){
 	return pan;
 }
 
 //------------------------------------------------------------
-void fmodexPlayer::setVolume(float vol){
+void FmodexPlayer::setVolume(float vol){
 	if (getIsPlaying() == true){
 		channel->setVolume(vol);
 	}
@@ -265,7 +265,7 @@ void fmodexPlayer::setVolume(float vol){
 }
 
 //------------------------------------------------------------
-void fmodexPlayer::setPosition(float pct){
+void FmodexPlayer::setPosition(float pct){
 	if (getIsPlaying() == true){
 		int sampleToBeAt = (int)(length * pct);
 		channel->setPosition(sampleToBeAt, FMOD_TIMEUNIT_PCM);
@@ -273,7 +273,7 @@ void fmodexPlayer::setPosition(float pct){
 }
 
 //------------------------------------------------------------
-float fmodexPlayer::getPosition(){
+float FmodexPlayer::getPosition(){
 	if (getIsPlaying() == true){
 		unsigned int sampleImAt;
 		
@@ -290,7 +290,7 @@ float fmodexPlayer::getPosition(){
 }
 
 //------------------------------------------------------------
-void fmodexPlayer::setPan(float p){
+void FmodexPlayer::setPan(float p){
 	if (getIsPlaying() == true){
 		channel->setPan(p);
 	}
@@ -299,7 +299,7 @@ void fmodexPlayer::setPan(float p){
 
 
 //------------------------------------------------------------
-void fmodexPlayer::setPaused(bool bP){
+void FmodexPlayer::setPaused(bool bP){
 	if (getIsPlaying() == true){
 		channel->setPaused(bP);
 		bPaused = bP;
@@ -308,7 +308,7 @@ void fmodexPlayer::setPaused(bool bP){
 
 
 //------------------------------------------------------------
-void fmodexPlayer::setSpeed(float spd){
+void FmodexPlayer::setSpeed(float spd){
 	if (getIsPlaying() == true){
 		channel->setFrequency( internalFreq * spd);
 	}
@@ -317,7 +317,7 @@ void fmodexPlayer::setSpeed(float spd){
 
 
 //------------------------------------------------------------
-void fmodexPlayer::setLoop(bool bLp){
+void FmodexPlayer::setLoop(bool bLp){
 	if (getIsPlaying() == true){
 		channel->setMode( (bLp == true) ? FMOD_LOOP_NORMAL : FMOD_LOOP_OFF);
 	}
@@ -325,12 +325,12 @@ void fmodexPlayer::setLoop(bool bLp){
 }
 
 // ----------------------------------------------------------------------------
-void fmodexPlayer::setMultiPlay(bool bMp){
+void FmodexPlayer::setMultiPlay(bool bMp){
 	bMultiPlay = bMp;		// be careful with this...
 }
 
 // ----------------------------------------------------------------------------
-void fmodexPlayer::play(){
+void FmodexPlayer::play(){
 	
 	// if it's a looping sound, we should try to kill it, no?
 	// or else people will have orphan channels that are looping
@@ -361,6 +361,6 @@ void fmodexPlayer::play(){
 }
 
 // ----------------------------------------------------------------------------
-void fmodexPlayer::stop(){
+void FmodexPlayer::stop(){
 	channel->stop();
 }

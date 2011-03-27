@@ -1,5 +1,5 @@
 /*
- *  fmodexPlayer.h
+ *  FmodexPlayer.h
  *  
  *
  *  Created by Roger Palà on 21/03/2011.
@@ -12,19 +12,19 @@
 #include "cinder/Utilities.h"
 #include "cinder/app/AppBasic.h"
 
-void fmodexStopAll();
-void fmodexSetVolume(float vol);
-void fmodexUpdate();						// calls FMOD update.
-float * fmodexGetSpectrum(int nBands);		// max 512...
+void FmodexStopAll();
+void FmodexSetVolume(float vol);
+void FmodexUpdate();						// calls FMOD update.
+float * FmodexGetSpectrum(int nBands);		// max 512...
 
 
 // --------------------- player functions:
-class fmodexPlayer {
+class FmodexPlayer {
 	
 public:
 	
-	fmodexPlayer();
-	virtual ~fmodexPlayer();
+	FmodexPlayer();
+	virtual ~FmodexPlayer();
 	
 	void loadSound(std::string fileName, bool stream = false);
 	void unloadSound();

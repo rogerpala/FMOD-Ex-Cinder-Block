@@ -1,6 +1,6 @@
 #include "cinder/app/AppBasic.h"
 #include "cinder/gl/gl.h"
-#include "fmodex3DSoundPlayer.h"
+#include "Fmodex3DSoundPlayer.h"
 #include "cinder/Camera.h"
 #include "cinder/params/Params.h"
 #include "cinder/Rand.h"
@@ -28,8 +28,8 @@ class FmodExMultiple3DSoundPlayerApp : public AppBasic {
 	Vec3f camInitialEye;
 	
 	//Multiple 3D Sound
-	fmodex3DSoundPlayer player1;
-	fmodex3DSoundPlayer player2;
+	Fmodex3DSoundPlayer player1;
+	Fmodex3DSoundPlayer player2;
 	FMOD::System* sys;
 	FMOD_VECTOR listenerVelocity; 
 	FMOD_VECTOR listenerUp; 
@@ -118,7 +118,7 @@ void FmodExMultiple3DSoundPlayerApp::setup()
 	player2.play();
 	
 	
-	sys = fmodex3DSoundPlayer::getSystem();
+	sys = Fmodex3DSoundPlayer::getSystem();
 	
 	
 	
@@ -179,7 +179,7 @@ void FmodExMultiple3DSoundPlayerApp::update()
 	
 	//we update the fmod sound system
 	sys->update();
-	//fmodexUpdate();
+	//FmodexUpdate();
 	
 }
 

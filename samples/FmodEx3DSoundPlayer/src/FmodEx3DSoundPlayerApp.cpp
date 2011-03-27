@@ -11,7 +11,7 @@
 
 #include "cinder/app/AppBasic.h"
 #include "cinder/gl/gl.h"
-#include "fmodex3DSoundPlayer.h"
+#include "Fmodex3DSoundPlayer.h"
 
 #define SCALE 400.f
 
@@ -26,7 +26,7 @@ class FmodEx3DSoundPlayerApp : public AppBasic {
 	void update();
 	void draw();
 	
-	fmodex3DSoundPlayer player;
+	Fmodex3DSoundPlayer player;
 	FMOD::System *sys;
 	FMOD_VECTOR listenerVelocity; 
 	FMOD_VECTOR listenerUp; 
@@ -72,7 +72,7 @@ void FmodEx3DSoundPlayerApp::setup()
 	player.play();
 	
 	
-	sys = fmodex3DSoundPlayer::getSystem();
+	sys = Fmodex3DSoundPlayer::getSystem();
 }
 
 void FmodEx3DSoundPlayerApp::mouseMove( MouseEvent event )

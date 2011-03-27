@@ -1,6 +1,6 @@
 #include "cinder/app/AppBasic.h"
 #include "cinder/gl/gl.h"
-#include "fmodexPlayer.h"
+#include "FmodexPlayer.h"
 
 using namespace ci;
 using namespace ci::app;
@@ -13,7 +13,7 @@ class basicFmodExSoundPlayerApp : public AppBasic {
 	void update();
 	void draw();
 	
-	fmodexPlayer player;
+	FmodexPlayer player;
 	float speed;
 	float pan;
 	
@@ -44,7 +44,7 @@ void basicFmodExSoundPlayerApp::mouseMove( MouseEvent event )
 
 void basicFmodExSoundPlayerApp::update()
 {
-	fmodexUpdate();
+	FmodexUpdate();
 }
 
 void basicFmodExSoundPlayerApp::draw()
