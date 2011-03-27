@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091D8F80E81B9330029341E /* OpenGL.framework */; };
+		0097E3E50F3E9819005A4392 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0097E3E40F3E9819005A4392 /* QuickTime.framework */; };
+		00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784AF0FF439BC000DE1D7 /* Accelerate.framework */; };
+		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
+		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
+		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
+		00BAE65A0E7ED9C10018A608 /* FmodExMultipleDynamic3DSoundPlayerApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00BAE6590E7ED9C10018A608 /* FmodExMultipleDynamic3DSoundPlayerApp.cpp */; };
+		00CCAF15116A9FEE008396D5 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 00CCAF14116A9FEE008396D5 /* CinderApp.icns */; };
+		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
+		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
+		53E3CDFC0E86099300238D2B /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E3CDFB0E86099300238D2B /* Carbon.framework */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		C51BAACC133FC42D00695BA0 /* libfmodex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C51BA9C5133FC42C00695BA0 /* libfmodex.dylib */; };
+		C51BAACD133FC42D00695BA0 /* libfmodex.dylib~1ff4e510c44ce83eb6abef94a7b24181cb9280ba in Frameworks */ = {isa = PBXBuildFile; fileRef = C51BA9C6133FC42C00695BA0 /* libfmodex.dylib~1ff4e510c44ce83eb6abef94a7b24181cb9280ba */; };
+		C51BAB65133FC42D00695BA0 /* Fmodex3DSoundPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C51BAAAF133FC42D00695BA0 /* Fmodex3DSoundPlayer.cpp */; };
+		C51BAB66133FC42D00695BA0 /* FmodexPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C51BAAB0133FC42D00695BA0 /* FmodexPlayer.cpp */; };
+		C51BAB80133FC46A00695BA0 /* 1085.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C51BAB7C133FC46A00695BA0 /* 1085.mp3 */; };
+		C51BAB81133FC46A00695BA0 /* beat.wav in Resources */ = {isa = PBXBuildFile; fileRef = C51BAB7D133FC46A00695BA0 /* beat.wav */; };
+		C51BAB82133FC46A00695BA0 /* synth.wav in Resources */ = {isa = PBXBuildFile; fileRef = C51BAB7E133FC46A00695BA0 /* synth.wav */; };
+		C51BAB83133FC46A00695BA0 /* Violet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C51BAB7F133FC46A00695BA0 /* Violet.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0091D8F80E81B9330029341E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		0097E3E40F3E9819005A4392 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		00B784AF0FF439BC000DE1D7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		00BAE6590E7ED9C10018A608 /* FmodExMultipleDynamic3DSoundPlayerApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FmodExMultipleDynamic3DSoundPlayerApp.cpp; path = ../src/FmodExMultipleDynamic3DSoundPlayerApp.cpp; sourceTree = SOURCE_ROOT; };
+		00CCAF14116A9FEE008396D5 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = SOURCE_ROOT; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* FmodExMultipleDynamic3DSoundPlayer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmodExMultipleDynamic3DSoundPlayer_Prefix.pch; sourceTree = "<group>"; };
+		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		53E3CDFB0E86099300238D2B /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* FmodExMultipleDynamic3DSoundPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FmodExMultipleDynamic3DSoundPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C51BA9B4133FC42C00695BA0 /* Fmodex3DSoundPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fmodex3DSoundPlayer.h; sourceTree = "<group>"; };
+		C51BA9B5133FC42C00695BA0 /* FmodexPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmodexPlayer.h; sourceTree = "<group>"; };
+		C51BA9BB133FC42C00695BA0 /* fmod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod.h; sourceTree = "<group>"; };
+		C51BA9BC133FC42C00695BA0 /* fmod.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fmod.hpp; sourceTree = "<group>"; };
+		C51BA9BD133FC42C00695BA0 /* fmod_codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_codec.h; sourceTree = "<group>"; };
+		C51BA9BE133FC42C00695BA0 /* fmod_dsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_dsp.h; sourceTree = "<group>"; };
+		C51BA9BF133FC42C00695BA0 /* fmod_errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_errors.h; sourceTree = "<group>"; };
+		C51BA9C0133FC42C00695BA0 /* fmod_memoryinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_memoryinfo.h; sourceTree = "<group>"; };
+		C51BA9C1133FC42C00695BA0 /* fmod_output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_output.h; sourceTree = "<group>"; };
+		C51BA9C2133FC42C00695BA0 /* fmodlinux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmodlinux.h; sourceTree = "<group>"; };
+		C51BA9C5133FC42C00695BA0 /* libfmodex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfmodex.dylib; sourceTree = "<group>"; };
+		C51BA9C6133FC42C00695BA0 /* libfmodex.dylib~1ff4e510c44ce83eb6abef94a7b24181cb9280ba */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libfmodex.dylib~1ff4e510c44ce83eb6abef94a7b24181cb9280ba"; sourceTree = "<group>"; };
+		C51BAAAF133FC42D00695BA0 /* Fmodex3DSoundPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Fmodex3DSoundPlayer.cpp; sourceTree = "<group>"; };
+		C51BAAB0133FC42D00695BA0 /* FmodexPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FmodexPlayer.cpp; sourceTree = "<group>"; };
+		C51BAB7C133FC46A00695BA0 /* 1085.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 1085.mp3; path = ../resources/1085.mp3; sourceTree = SOURCE_ROOT; };
+		C51BAB7D133FC46A00695BA0 /* beat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = beat.wav; path = ../resources/beat.wav; sourceTree = SOURCE_ROOT; };
+		C51BAB7E133FC46A00695BA0 /* synth.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = synth.wav; path = ../resources/synth.wav; sourceTree = SOURCE_ROOT; };
+		C51BAB7F133FC46A00695BA0 /* Violet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Violet.mp3; path = ../resources/Violet.mp3; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */,
+				53E3CDFC0E86099300238D2B /* Carbon.framework in Frameworks */,
+				5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */,
+				5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */,
+				0097E3E50F3E9819005A4392 /* QuickTime.framework in Frameworks */,
+				00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */,
+				00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */,
+				00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */,
+				00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */,
+				C51BAACC133FC42D00695BA0 /* libfmodex.dylib in Frameworks */,
+				C51BAACD133FC42D00695BA0 /* libfmodex.dylib~1ff4e510c44ce83eb6abef94a7b24181cb9280ba in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				00BAE6590E7ED9C10018A608 /* FmodExMultipleDynamic3DSoundPlayerApp.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00B784AF0FF439BC000DE1D7 /* Accelerate.framework */,
+				00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */,
+				00B784B10FF439BC000DE1D7 /* AudioUnit.framework */,
+				00B784B20FF439BC000DE1D7 /* CoreAudio.framework */,
+				0097E3E40F3E9819005A4392 /* QuickTime.framework */,
+				5323E6B50EAFCA7E003A9687 /* QTKit.framework */,
+				5323E6B10EAFCA74003A9687 /* CoreVideo.framework */,
+				53E3CDFB0E86099300238D2B /* Carbon.framework */,
+				0091D8F80E81B9330029341E /* OpenGL.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* FmodExMultipleDynamic3DSoundPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* FmodExMultipleDynamic3DSoundPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				C51BA98D133FC42B00695BA0 /* FMOD-Ex-Cinder-Block */,
+				29B97315FDCFA39411CA2CEA /* Headers */,
+				080E96DDFE201D6D7F000001 /* Source */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = FmodExMultipleDynamic3DSoundPlayer;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* FmodExMultipleDynamic3DSoundPlayer_Prefix.pch */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				C51BAB7C133FC46A00695BA0 /* 1085.mp3 */,
+				C51BAB7D133FC46A00695BA0 /* beat.wav */,
+				C51BAB7E133FC46A00695BA0 /* synth.wav */,
+				C51BAB7F133FC46A00695BA0 /* Violet.mp3 */,
+				00CCAF14116A9FEE008396D5 /* CinderApp.icns */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C51BA98D133FC42B00695BA0 /* FMOD-Ex-Cinder-Block */ = {
+			isa = PBXGroup;
+			children = (
+				C51BA9B3133FC42C00695BA0 /* include */,
+				C51BA9B9133FC42C00695BA0 /* libs */,
+				C51BAAAE133FC42D00695BA0 /* src */,
+			);
+			name = "FMOD-Ex-Cinder-Block";
+			path = ../../..;
+			sourceTree = SOURCE_ROOT;
+		};
+		C51BA9B3133FC42C00695BA0 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C51BA9B4133FC42C00695BA0 /* Fmodex3DSoundPlayer.h */,
+				C51BA9B5133FC42C00695BA0 /* FmodexPlayer.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		C51BA9B9133FC42C00695BA0 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				C51BA9BA133FC42C00695BA0 /* include */,
+				C51BA9C3133FC42C00695BA0 /* lib */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		C51BA9BA133FC42C00695BA0 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C51BA9BB133FC42C00695BA0 /* fmod.h */,
+				C51BA9BC133FC42C00695BA0 /* fmod.hpp */,
+				C51BA9BD133FC42C00695BA0 /* fmod_codec.h */,
+				C51BA9BE133FC42C00695BA0 /* fmod_dsp.h */,
+				C51BA9BF133FC42C00695BA0 /* fmod_errors.h */,
+				C51BA9C0133FC42C00695BA0 /* fmod_memoryinfo.h */,
+				C51BA9C1133FC42C00695BA0 /* fmod_output.h */,
+				C51BA9C2133FC42C00695BA0 /* fmodlinux.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		C51BA9C3133FC42C00695BA0 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				C51BA9C4133FC42C00695BA0 /* osx */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		C51BA9C4133FC42C00695BA0 /* osx */ = {
+			isa = PBXGroup;
+			children = (
+				C51BA9C5133FC42C00695BA0 /* libfmodex.dylib */,
+				C51BA9C6133FC42C00695BA0 /* libfmodex.dylib~1ff4e510c44ce83eb6abef94a7b24181cb9280ba */,
+			);
+			path = osx;
+			sourceTree = "<group>";
+		};
+		C51BAAAE133FC42D00695BA0 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C51BAAAF133FC42D00695BA0 /* Fmodex3DSoundPlayer.cpp */,
+				C51BAAB0133FC42D00695BA0 /* FmodexPlayer.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* FmodExMultipleDynamic3DSoundPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "FmodExMultipleDynamic3DSoundPlayer" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FmodExMultipleDynamic3DSoundPlayer;
+			productInstallPath = "$(HOME)/Applications";
+			productName = FmodExMultipleDynamic3DSoundPlayer;
+			productReference = 8D1107320486CEB800E47090 /* FmodExMultipleDynamic3DSoundPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FmodExMultipleDynamic3DSoundPlayer" */;
+			compatibilityVersion = "Xcode 3.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* FmodExMultipleDynamic3DSoundPlayer */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* FmodExMultipleDynamic3DSoundPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CCAF15116A9FEE008396D5 /* CinderApp.icns in Resources */,
+				C51BAB80133FC46A00695BA0 /* 1085.mp3 in Resources */,
+				C51BAB81133FC46A00695BA0 /* beat.wav in Resources */,
+				C51BAB82133FC46A00695BA0 /* synth.wav in Resources */,
+				C51BAB83133FC46A00695BA0 /* Violet.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00BAE65A0E7ED9C10018A608 /* FmodExMultipleDynamic3DSoundPlayerApp.cpp in Sources */,
+				C51BAB65133FC42D00695BA0 /* Fmodex3DSoundPlayer.cpp in Sources */,
+				C51BAB66133FC42D00695BA0 /* FmodexPlayer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FmodExMultipleDynamic3DSoundPlayer_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../libs/lib/osx\"",
+				);
+				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
+				PRODUCT_NAME = FmodExMultipleDynamic3DSoundPlayer;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FmodExMultipleDynamic3DSoundPlayer_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../libs/lib/osx\"",
+				);
+				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder.a\"";
+				PRODUCT_NAME = FmodExMultipleDynamic3DSoundPlayer;
+				STRIP_INSTALLED_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CINDER_PATH = ../../../../..;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CINDER_PATH = ../../../../../../../../cinder/cinder_0.8.2_mac;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "FmodExMultipleDynamic3DSoundPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FmodExMultipleDynamic3DSoundPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

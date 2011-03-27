@@ -1,0 +1,184 @@
+// !$*UTF8*$!
+{
+	00BAE6590E7ED9C10018A608 /* FmodExMultipleDynamic3DSoundPlayerApp.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {754, 2977}}";
+			sepNavSelRange = "{4150, 0}";
+			sepNavVisRange = "{3756, 1002}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = C51BA966133FC3A900695BA0 /* FmodExMultipleDynamic3DSoundPlayer */;
+		activeTarget = 8D1107260486CEB800E47090 /* FmodExMultipleDynamic3DSoundPlayer */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* FmodExMultipleDynamic3DSoundPlayer */,
+		);
+		codeSenseManager = C51BA98C133FC3AE00695BA0 /* Code sense */;
+		executables = (
+			C51BA966133FC3A900695BA0 /* FmodExMultipleDynamic3DSoundPlayer */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					574,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 322947358;
+			PBXWorkspaceStateSaveDate = 322947358;
+		};
+		perUserProjectItems = {
+			C51BABA1133FC8C300695BA0 /* PBXTextBookmark */ = C51BABA1133FC8C300695BA0 /* PBXTextBookmark */;
+			C51BABB3133FC90E00695BA0 /* PBXTextBookmark */ = C51BABB3133FC90E00695BA0 /* PBXTextBookmark */;
+			C51BABB4133FC90E00695BA0 /* PBXTextBookmark */ = C51BABB4133FC90E00695BA0 /* PBXTextBookmark */;
+			C51BABD3133FCA6300695BA0 /* PBXTextBookmark */ = C51BABD3133FCA6300695BA0 /* PBXTextBookmark */;
+			C51BABD7133FCA6300695BA0 /* PBXTextBookmark */ = C51BABD7133FCA6300695BA0 /* PBXTextBookmark */;
+		};
+		sourceControlManager = C51BA98B133FC3AE00695BA0 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* FmodExMultipleDynamic3DSoundPlayer */ = {
+		activeExec = 0;
+		executables = (
+			C51BA966133FC3A900695BA0 /* FmodExMultipleDynamic3DSoundPlayer */,
+		);
+	};
+	C51BA966133FC3A900695BA0 /* FmodExMultipleDynamic3DSoundPlayer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = FmodExMultipleDynamic3DSoundPlayer;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	C51BA98B133FC3AE00695BA0 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	C51BA98C133FC3AE00695BA0 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C51BABA1133FC8C300695BA0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C51BABA2133FC8C300695BA0 /* FmodExMultiple3DSoundPlayerApp.cpp */;
+		name = "FmodExMultiple3DSoundPlayerApp.cpp: 79";
+		rLen = 1;
+		rLoc = 1840;
+		rType = 0;
+		vrLen = 1142;
+		vrLoc = 1620;
+	};
+	C51BABA2133FC8C300695BA0 /* FmodExMultiple3DSoundPlayerApp.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = FmodExMultiple3DSoundPlayerApp.cpp;
+		path = /Users/rogerp/Desktop/FmodExMultiple3DSoundPlayerApp.cpp;
+		sourceTree = "<absolute>";
+	};
+	C51BABB3133FC90E00695BA0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00BAE6590E7ED9C10018A608 /* FmodExMultipleDynamic3DSoundPlayerApp.cpp */;
+		name = "FmodExMultipleDynamic3DSoundPlayerApp.cpp: 167";
+		rLen = 0;
+		rLoc = 4150;
+		rType = 0;
+		vrLen = 1002;
+		vrLoc = 3756;
+	};
+	C51BABB4133FC90E00695BA0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C51BABB5133FC90E00695BA0 /* FmodExMultiple3DSoundPlayerApp.cpp */;
+		name = "FmodExMultiple3DSoundPlayerApp.cpp: 191";
+		rLen = 189;
+		rLoc = 5399;
+		rType = 0;
+		vrLen = 1593;
+		vrLoc = 4114;
+	};
+	C51BABB5133FC90E00695BA0 /* FmodExMultiple3DSoundPlayerApp.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = FmodExMultiple3DSoundPlayerApp.cpp;
+		path = /Users/rogerp/Desktop/FmodExMultiple3DSoundPlayerApp.cpp;
+		sourceTree = "<absolute>";
+	};
+	C51BABD3133FCA6300695BA0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C51BABD4133FCA6300695BA0 /* FmodExMultipleDynamic3DSoundPlayerApp.cpp */;
+		name = "FmodExMultipleDynamic3DSoundPlayerApp.cpp: 96";
+		rLen = 0;
+		rLoc = 2320;
+		rType = 0;
+		vrLen = 1232;
+		vrLoc = 1684;
+	};
+	C51BABD4133FCA6300695BA0 /* FmodExMultipleDynamic3DSoundPlayerApp.cpp */ = {
+		isa = PBXFileReference;
+		name = FmodExMultipleDynamic3DSoundPlayerApp.cpp;
+		path = "/Users/rogerp/Documents/CREATIVE_CODING/cinder/cinder_0.8.2_mac/blocks/FMOD-Ex-Cinder-Block/samples/FmodExMultipleDynamic3DSoundPlayer/xcode/../src/FmodExMultipleDynamic3DSoundPlayerApp.cpp";
+		sourceTree = "<absolute>";
+	};
+	C51BABD7133FCA6300695BA0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C51BABD8133FCA6300695BA0 /* FmodExMultiple3DSoundPlayerApp.cpp */;
+		name = "FmodExMultiple3DSoundPlayerApp.cpp: 191";
+		rLen = 189;
+		rLoc = 5399;
+		rType = 0;
+		vrLen = 1610;
+		vrLoc = 4097;
+	};
+	C51BABD8133FCA6300695BA0 /* FmodExMultiple3DSoundPlayerApp.cpp */ = {
+		isa = PBXFileReference;
+		name = FmodExMultiple3DSoundPlayerApp.cpp;
+		path = /Users/rogerp/Desktop/FmodExMultiple3DSoundPlayerApp.cpp;
+		sourceTree = "<absolute>";
+	};
+}
